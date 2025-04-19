@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Asistente de Voz - ElevenLabs</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 50px;
+      background-color: #f5f5f5;
+    }
+    h1 {
+      color: #333;
+    }
+  </style>
+</head>
+<body>
+  <h1>Habla con nuestro asistente de voz</h1>
+  <p>Este asistente usa tecnología de ElevenLabs. ¡Hazle preguntas!</p>
+
+  <elevenlabs-convai agent-id="34qMgOXkmgvEg2ztDguy"></elevenlabs-convai>
+  <script src="https://elevenlabs.io/convai-widget/index.js" async type="text/javascript"></script>
+</body>
+</html>
